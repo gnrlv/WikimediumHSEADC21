@@ -61,7 +61,7 @@ nav {
   display: block;
   position: fixed;
   left: 20px;
-  top: 20px;
+  top: 50px;
   padding: 30px;
   opacity: .1;
   transition: opacity 1s ease;
@@ -90,4 +90,22 @@ nav > ul > li:first-child {
 }
 nav a {
   text-decoration: none;
+}
+.menubar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+.menubar img {
+  height: auto;
+  width: 200px;
+  margin: 0;
 }
